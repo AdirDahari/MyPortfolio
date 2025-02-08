@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! This project showcases my skills, experience, and various projects I've worked on. Built with React.js, Vite, and TailwindCSS, this portfolio serves as a comprehensive overview of my professional journey in software development.
 
+https://adirdahari.github.io/MyPortfolio/
+
 ## 🚀 Features
 
 - Interactive and responsive design
@@ -46,10 +48,6 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:5173`
-
-## 🌐 Live Demo
-
-[Add your deployed portfolio URL here]
 
 ## 📫 Contact Information
 

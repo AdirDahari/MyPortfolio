@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-const baseUrl = import.meta.env.BASE_URL;
+import PDFDownloadButton from "./PDFDownloadButton";
 
 const navItems = [
   { id: 1, href: `#about`, text: "About" },
@@ -54,7 +53,8 @@ const Navbar = () => {
               ))}
             </div>
             <div className="flex space-x-2 ml-4">
-              <a
+              <PDFDownloadButton />
+              {/* <a
                 href={`${baseUrl}/assets/files/WebDevCV-ADIR.pdf`}
                 download="WebDevCV-ADIR.pdf"
                 className={`
@@ -77,7 +77,8 @@ const Navbar = () => {
                 onTouchEnd={handleTouchEnd}
               >
                 Resume
-              </a>
+              </a> */}
+
               {/* <a
                 className={`
                     cursor-pointer
@@ -171,7 +172,8 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 pt-2 items-center w-full">
-                <a
+                <PDFDownloadButton />
+                {/* <a
                   href="/assets/files/WebDevCV-ADIR.pdf"
                   download="WebDevCV-ADIR.pdf"
                   className={`
@@ -197,7 +199,7 @@ const Navbar = () => {
                   onTouchEnd={handleTouchEnd}
                 >
                   Resume
-                </a>
+                </a> */}
                 {/* <a
                   className={`
                       text-center

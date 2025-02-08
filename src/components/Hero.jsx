@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const Hero = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -13,7 +15,7 @@ const Hero = () => {
       </p>
       <div>
         <a
-          href="/#about"
+          href={`${baseUrl}#about`}
           className="block m-auto w-10 h-10 touch-pan-y"
           onTouchStart={() => setIsActive(true)}
           onTouchEnd={() => setIsActive(false)}

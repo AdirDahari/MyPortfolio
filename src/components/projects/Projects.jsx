@@ -1,13 +1,15 @@
 import FeaturedItem from "./FeaturedItem";
 // import OtherItem from "./OtherItem";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const FeaturedItemList = [
   {
     id: 1,
     name: "Gaming Store - Client",
     description:
       "I built a gaming store second-hand community platform using React.js and Material UI for the client side. It allows users to buy, sell, and trade used games easily with a clean and modern design. The platform creates a smooth and engaging experience for the gaming community.",
-    imageSrc: "/assets/images/Screenshot 2025-02-06 162137.png",
+    imageSrc: `${baseUrl}/assets/images/Screenshot 2025-02-06 162137.png`,
     imageAlt: "Gaming Store Image",
     skillsList: ["React.js", "Material UI", "JavaScript"],
     links: [
@@ -31,7 +33,7 @@ const FeaturedItemList = [
     name: "Gaming Store - Server",
     description:
       "For the backend, I used Node.js, TypeScript, and MongoDB. It manages user accounts, product listings, transactions, and messages securely. With a well-structured API, it ensures fast and reliable performance, making the platform easy to use and efficient.",
-    imageSrc: "/assets/images/Screenshot 2025-02-07 113725.png",
+    imageSrc: `${baseUrl}/assets/images/Screenshot 2025-02-07 113725.png`,
     imageAlt: "Rest API Image",
     skillsList: ["Node.js", "MongoDB", "TypeScript"],
     links: [
@@ -49,7 +51,7 @@ const FeaturedItemList = [
     name: "Board Games",
     description:
       "This project is a collection of interactive board games developed entirely in vanilla JavaScript. It showcases my ability to create dynamic, user-friendly applications without relying on external libraries or frameworks.",
-    imageSrc: "/assets/images/Screenshot 2025-02-07 204707.png",
+    imageSrc: `${baseUrl}/assets/images/Screenshot 2025-02-07 204707.png`,
     imageAlt: "Board Games Image",
     skillsList: ["HTML", "CSS", "JavaScript"],
     links: [

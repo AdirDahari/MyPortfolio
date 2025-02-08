@@ -1,10 +1,12 @@
 import { useState } from "react";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const navItems = [
-  { id: 1, href: "/#about", text: "About" },
-  { id: 2, href: "/#education", text: "Education" },
-  { id: 3, href: "/#projects", text: "Projects" },
-  { id: 4, href: "/#contact", text: "Contact" },
+  { id: 1, href: `#about`, text: "About" },
+  { id: 2, href: `#education`, text: "Education" },
+  { id: 3, href: `#projects`, text: "Projects" },
+  { id: 4, href: `#contact`, text: "Contact" },
 ];
 
 const Navbar = () => {
@@ -53,7 +55,7 @@ const Navbar = () => {
             </div>
             <div className="flex space-x-2 ml-4">
               <a
-                href="/assets/files/WebDevCV-ADIR.pdf"
+                href={`${baseUrl}/assets/files/WebDevCV-ADIR.pdf`}
                 download="WebDevCV-ADIR.pdf"
                 className={`
                     cursor-pointer

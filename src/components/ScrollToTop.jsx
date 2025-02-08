@@ -4,7 +4,6 @@ const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isActive, setIsActive] = useState(false);
 
-  // Show button when page is scrolled up to given distance
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -13,7 +12,6 @@ const ScrollToTop = () => {
     }
   };
 
-  // Scroll to top smoothly
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

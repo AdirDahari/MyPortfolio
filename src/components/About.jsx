@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL;
+
 const About = () => {
   return (
     <div id="about" className="w-full bg-main-light-grey pt-28 pb-28">
@@ -22,7 +24,7 @@ const About = () => {
         </div>
         <div className="basis-1/2 flex justify-center items-center">
           <img
-            src="../../public/assets/images/profile-image.jpeg"
+            src={`${baseUrl}/assets/images/profile-image.jpeg`}
             alt="profile image"
             className="object-cover w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-lg"
           />

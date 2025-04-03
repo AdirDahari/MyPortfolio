@@ -7,11 +7,11 @@ const PDFDownloadButton = () => {
 
   const handleDownload = (e) => {
     e.preventDefault();
-    const pdfUrl = `${baseUrl}/assets/files/FullstackCV-ADIR.pdf`;
+    const pdfUrl = `${baseUrl}/assets/files/AdirDahari-CV.pdf`;
 
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.setAttribute("download", "WebDevCV-ADIR.pdf");
+    link.setAttribute("download", "AdirDahari-CV.pdf");
     link.setAttribute("target", "_blank");
 
     // For iOS Safari

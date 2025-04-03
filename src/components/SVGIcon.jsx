@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from "prop-types"; // Fixed typo in import name
+import PropTypes from "prop-types";
 
 const SVGIcon = ({ link, SVGPath }) => {
   const [isActive, setIsActive] = useState(false);

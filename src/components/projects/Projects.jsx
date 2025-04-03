@@ -8,19 +8,19 @@ const FeaturedItemList = [
     id: 1,
     name: "Gaming Store - Client",
     description:
-      "I built a gaming store second-hand community platform using React.js and Material UI for the client side. It allows users to buy, sell, and trade used games easily with a clean and modern design. The platform creates a smooth and engaging experience for the gaming community.",
-    imageSrc: `${baseUrl}/assets/images/Screenshot 2025-02-06 162137.png`,
+      "I built a gaming store second-hand community platform using React.js and Tailwind CSS for the client side. It allows users to buy, sell, and trade used games easily with a clean and modern design. The platform creates a smooth and engaging experience for the gaming community.",
+    imageSrc: `${baseUrl}/assets/images/Screenshot 2025-03-18 133356.png`,
     imageAlt: "Gaming Store Image",
     skillsList: ["React.js", "Material UI", "JavaScript"],
     links: [
       {
-        url: "https://github.com/AdirDahari/Gaming-Store-Front",
+        url: "https://github.com/AdirDahari/Gaming-Store-Client",
         SVGPath: (
           <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
         ),
       },
       {
-        url: "https://adirdahari.github.io/Gaming-Store-Front/",
+        url: "https://adirdahari.github.io/Gaming-Store-Client/",
         SVGPath: (
           <path d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15m0-3-3-3m0 0-3 3m3-3V15" />
         ),

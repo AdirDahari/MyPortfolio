@@ -7,7 +7,7 @@ const PDFDownloadButton = () => {
 
   const handleDownload = (e) => {
     e.preventDefault();
-    const pdfUrl = `${baseUrl}/assets/files/WebDevCV-ADIR.pdf`;
+    const pdfUrl = `${baseUrl}/assets/files/FullstackCV-ADIR.pdf`;
 
     const link = document.createElement("a");
     link.href = pdfUrl;

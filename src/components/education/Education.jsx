@@ -16,11 +16,22 @@ const itemList = [
     id: 2,
     title: "Next.js Course",
     compeny: "Udemy",
-    date: "2024",
+    date: "2025",
     dots: [
       "Seamless integration of server-side and client-side development.",
       "Comprehensive training covering architecture, routing, and best practices.",
       "Essential tools for building modern and efficient web applications.",
+    ],
+  },
+  {
+    id: 3,
+    title: "React Navite Course",
+    compeny: "Udemy",
+    date: "2025",
+    dots: [
+      "Cross-platform mobile application development with a single codebase.",
+      "Native UI components for iOS and Android with JavaScript.",
+      "Hot reloading for faster development and iteration cycles.",
     ],
   },
 ];
